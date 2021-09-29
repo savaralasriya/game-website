@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Gaming website</title>
+<link rel="stylesheet" href="txt.css">
+</head>
+<body>
+  <div class="container">
+  <div class="navigationbar">
+    <img src="https://www.oasdom.com/wp-content/uploads/2018/01/oasdom.com-6-free-logo-design-online-696x391.jpg" class="logo">
+<nav>
+<ul id="menuList">
+  <li><a href="">game controllers</a></li>
+  <li><a href="">vr accessories</a></li>
+  <li><a href=""> remote</a></li>
+  <li><a href="">others</a></li>
+</ul>
+</nav>
+    <img src="https://css-tricks.com/wp-content/uploads/2012/10/threelines.png"
+     class="menu-bar" onclick="togglemenu()">
+</div>
+
+<div class="row">
+  <div class="col-1">
+    <h2>ps4<br>dual shock4</h2>
+    <h3>wireless controller from playstation 4</h3>
+    <p>(compitable/generic)</p>
+    <h4>$32.58</h4>
+    <button type="button">buynow <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png">
+      </button>
+  </div>
+  <div class="col-2">
+      <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e8e069eb4aaaa0006ece5e0%2FPS5-Controller%2F960x0.jpg%3Ffit%3Dscale" class="controller">
+      <div class="color-box"></div>
+      <div class="addbutton">
+        <img src="https://thumbs.dreamstime.com/b/add-icon-flat-illustration-plus-sign-symbol-vector-174197726.jpg">
+        <p><small>add to cart</small></p>
+   </div>
+  </div>
+ </div>
+
+ <div class="sociallinks">
+  <img src="https://i.pinimg.com/originals/7c/cb/40/7ccb40e2fa23d39346cc9dc8691d68b3.jpg">
+  <img src="https://pngimage.net/wp-content/uploads/2019/05/twitter-logo-png-download-2.png">
+  <img src="https://www.seekpng.com/png/detail/1-13633_instagram-png-instagram-icon-transparent-background-instagram-logo.png">
+ </div>
+
+</div>
+
+<script>
+  var menuList = document.getElementById("menuList");
+
+   menuList.style.maxHeight = "0px";
+
+   function togglemenu(){
+
+     if(menuList.style.maxHeight == "0px"){
+       menuList.style.maxHeight = "130px";
+     }
+     else {
+       menuList.style.maxHeight="0px";
+     }
+}
+ </script>
+
+</body>
+</html>
